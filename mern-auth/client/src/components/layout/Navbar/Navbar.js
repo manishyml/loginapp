@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
@@ -9,6 +10,11 @@ class Navbar extends Component {
             <i className="main_heading">code</i>
             MERN
           </Link>
+        </div>
+        <div className="nav_right">
+          <div className="about_us">About Us</div>
+          <div className="contact_us">Contact Us</div>
+          <div className="menu">Menu</div>
         </div>
       </nav>
     );
