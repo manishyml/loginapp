@@ -5,10 +5,10 @@ class Navbar extends Component {
     return (
       <nav className="nav_parent">
         <div className="nav_wrapper">
-          {/* <Link to="/" className="home_link"> */}
-          <i className="main_heading">code</i>
-          MERN
-          {/* </Link> */}
+          <Link to="/" className="home_link">
+            <i className="main_heading">code</i>
+            MERN
+          </Link>
         </div>
       </nav>
     );

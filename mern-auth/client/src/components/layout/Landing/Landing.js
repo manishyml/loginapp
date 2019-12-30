@@ -16,14 +16,14 @@ class Landing extends Component {
             </p>
             <br />
             <div className="register_link">
-              {/* <Link to="/register" className=""> */}
-              Register
-              {/* </Link> */}
+              <Link to="/register" className="">
+                Register
+              </Link>
             </div>
             <div className="login_link">
-              {/* <Link to="/login" className=""> */}
-              Log In
-              {/* </Link> */}
+              <Link to="/login" className="">
+                Log In
+              </Link>
             </div>
           </div>
         </div>
