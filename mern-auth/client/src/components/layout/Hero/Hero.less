@@ -1,0 +1,70 @@
+.hero_banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 5% 30px 5%;
+  align-items: center;
+
+  .left_side {
+    .hero_title {
+      font-size: 40px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bolder;
+    }
+    .hero_description {
+      margin: 20px 0;
+      width: 500px;
+    }
+    .link_container {
+      display: flex;
+      width: 250px;
+      // justify-content: space-between;
+      position: relative;
+      .register_link {
+        padding: 10px 20px;
+        background-color: #7f3d7d;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+      .or_text {
+        padding: 6px;
+        position: absolute;
+        left: 33%;
+        border-radius: 30px;
+        top: -11%;
+        background-color: #23282e;
+        z-index: 1;
+        .or_text_parent {
+          border-radius: 30px;
+          height: 35px;
+          width: 35px;
+          position: relative;
+          font-size: 14px;
+          background-color: #48aef9;
+
+          color: black;
+          .or_text_inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-weight: bold;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+      .login_link {
+        padding: 10px 20px;
+        color: white;
+        background-color: #7f3d7d;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: 20px;
+      }
+    }
+  }
+  .hero_icon_container {
+    .icon {
+      height: 250px;
+      width: 250px;
+    }
+  }
+}
